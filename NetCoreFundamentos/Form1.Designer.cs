@@ -28,12 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            lblEjemplo = new Label();
+            txtEjemplo = new TextBox();
+            btnEjemplo = new Button();
+            SuspendLayout();
+            // 
+            // lblEjemplo
+            // 
+            lblEjemplo.AutoSize = true;
+            lblEjemplo.BackColor = SystemColors.ActiveBorder;
+            lblEjemplo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEjemplo.Location = new Point(289, 87);
+            lblEjemplo.Name = "lblEjemplo";
+            lblEjemplo.Size = new Size(177, 21);
+            lblEjemplo.TabIndex = 0;
+            lblEjemplo.Text = "Introduzca su nombre";
+            lblEjemplo.Click += label1_Click;
+            // 
+            // txtEjemplo
+            // 
+            txtEjemplo.Location = new Point(289, 114);
+            txtEjemplo.Name = "txtEjemplo";
+            txtEjemplo.Size = new Size(177, 23);
+            txtEjemplo.TabIndex = 1;
+            // 
+            // btnEjemplo
+            // 
+            btnEjemplo.BackColor = Color.Black;
+            btnEjemplo.ForeColor = SystemColors.ButtonHighlight;
+            btnEjemplo.Location = new Point(342, 143);
+            btnEjemplo.Name = "btnEjemplo";
+            btnEjemplo.Size = new Size(75, 23);
+            btnEjemplo.TabIndex = 2;
+            btnEjemplo.Text = "Pulsar";
+            btnEjemplo.UseVisualStyleBackColor = false;
+            btnEjemplo.Click += btnEjemplo_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnEjemplo);
+            Controls.Add(txtEjemplo);
+            Controls.Add(lblEjemplo);
+            Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblEjemplo;
+        private TextBox txtEjemplo;
+        private Button btnEjemplo;
     }
 }
