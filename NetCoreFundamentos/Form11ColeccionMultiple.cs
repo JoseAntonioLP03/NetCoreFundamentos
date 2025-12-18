@@ -54,7 +54,7 @@ namespace NetCoreFundamentos
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             string data = "";
-            //QUIERO ELIMINAR LOS ELEMENTOS SELECCIONADOS
+            //QUIERO ELIMINAR LOS ELEMENTOS SELECCIONADOS-
             //PARA LAS ACCIONE SOBRE LAS COLECCIONES SIEMPRE
             //CON BUCLES CONTADOR
             //VOY A UTILIZAR EL METODO RemoveAt POR LO QUE RECORREMOS 
