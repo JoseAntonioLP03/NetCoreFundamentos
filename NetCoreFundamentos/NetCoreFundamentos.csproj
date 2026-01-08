@@ -9,8 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\Alumnos MCSD Mañana\Desktop\Form16ListDelegados.Designer.cs" Link="Form16ListDelegados.Designer.cs" />
-    <Compile Include="C:\Users\Alumnos MCSD Mañana\Desktop\Form19TablaMultiplicar.cs" Link="Form19TablaMultiplicar.cs" />
+    <Compile Remove="Form16ListDelegados.cs" />
+    <Compile Remove="Form16ListDelegados.Designer.cs" />
+    <Compile Remove="Form19TablaMultiplicar.cs" />
+    <Compile Remove="Form19TablaMultiplicar.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Form16ListDelegados.resx" />
+    <EmbeddedResource Remove="Form19TablaMultiplicar.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoClases\ProyectoClases.csproj" />
   </ItemGroup>
 
 </Project>
