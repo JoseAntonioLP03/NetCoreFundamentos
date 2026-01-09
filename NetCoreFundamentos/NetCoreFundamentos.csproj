@@ -13,11 +13,14 @@
     <Compile Remove="Form16ListDelegados.Designer.cs" />
     <Compile Remove="Form19TablaMultiplicar.cs" />
     <Compile Remove="Form19TablaMultiplicar.Designer.cs" />
+    <Compile Remove="Form24ColeccionesMascotasXML.cs" />
+    <Compile Remove="Form24ColeccionesMascotasXML.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="Form16ListDelegados.resx" />
     <EmbeddedResource Remove="Form19TablaMultiplicar.resx" />
+    <EmbeddedResource Remove="Form24ColeccionesMascotasXML.resx" />
   </ItemGroup>
 
   <ItemGroup>
